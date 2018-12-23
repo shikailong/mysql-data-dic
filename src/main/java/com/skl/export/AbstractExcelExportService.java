@@ -111,7 +111,7 @@ public abstract class AbstractExcelExportService implements ExcelExportService{
      */
     public void exportExcel() throws IOException {
 
-        String filePath = System.getProperty("user.dir") + File.separator + "鑫机缘数据字典.xls";
+        String filePath = System.getProperty("user.dir") + File.separator + "数据字典.xls";
         File file = new File(filePath);
         if (!file.exists()) {
             file.createNewFile();
